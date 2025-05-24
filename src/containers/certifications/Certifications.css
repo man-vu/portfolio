@@ -1,0 +1,33 @@
+.certifications-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.certifications-body-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .certifications-header {
+    font-size: 35px;
+  }
+
+  .certifications-body-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .certifications-body-div {
+    flex-direction: column;
+  } */
+  .certifications-header {
+    font-size: 30px;
+  }
+}
