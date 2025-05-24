@@ -64,7 +64,7 @@ function Header(props) {
       <div className={theme.name === "light" ? "header-wrapper light" : "header-wrapper dark"}>
         <header className="header">
           {greeting && (
-            <a href="#home" className="logo">
+            <a href="/" className="logo">
               <span style={{ color: theme.text }}></span>
               <span className="logo-name" style={{ color: theme.text }}>
                 <img className="logo-img" src={logoImage} alt="Man Vu's Brand Logo" />
@@ -81,7 +81,7 @@ function Header(props) {
 
           <ul className="menu">
             <li>
-              <a className="homei" href="#home" style={{ borderRadius: 50, color: theme.text }}>
+              <a className="homei" href="/" style={{ borderRadius: 50, color: theme.text }}>
                 Home
               </a>
             </li>
@@ -111,7 +111,7 @@ function Header(props) {
             </li>
             <li>
               <a className="cr" href="#contact" style={{ borderRadius: 50, color: theme.text }}>
-                Contact and Resume
+                Contact
               </a>
             </li>
             <button {...styles} onClick={changeTheme}>

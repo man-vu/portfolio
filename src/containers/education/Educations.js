@@ -22,7 +22,20 @@ function Educations(props) {
         </Fade>
       </div>
       <div className="educations-body-div">
-        {degrees.degrees.map((degree, index) => (
+        {degrees.completedDegrees.map((degree, index) => (
+          <DegreeCard key={index} degree={degree} theme={theme} />
+        ))}
+      </div>
+
+      <div className="educations-header-div" style={{ marginTop: "60px" }}>
+        <Fade in={fadeIn} timeout={2000}>
+          <h1 className="educations-header" style={{ color: theme.text }}>
+            Currently Pursuing
+          </h1>
+        </Fade>
+      </div>
+      <div className="educations-body-div">
+        {degrees.inProgressDegrees.map((degree, index) => (
           <DegreeCard key={index} degree={degree} theme={theme} />
         ))}
       </div>

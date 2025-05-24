@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
@@ -34,7 +34,7 @@ function SkillSection(props) {
                     <p
                       key={idx}
                       className="subTitle skills-text"
-                      style={{ color: theme.secondaryText }}
+                      style={{ color: theme.primaryText }}
                     >
                       {sentence}
                     </p>

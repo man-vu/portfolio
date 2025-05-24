@@ -22,32 +22,37 @@ export default function TestimonialCard({ repo, theme }) {
     },
   });
 
-  return (
-    <div className="testimonial-wrapper">
-      <Fade in={fadeIn} timeout={2000}>
-        <div
-          {...styles}
-          key={repo.id}
-          style={{ backgroundColor: theme.projectCard }}
-          className="testimonial-card"
-        >
-          <div className="testimonial-name-div">
-            <p className="testimonial-name" style={{ color: theme.testimonialName }}>
-              {repo.name}
-            </p>
-          </div>
-          <p className="testimonial-description" style={{ color: theme.text }}>
-            {repo.testimonial}
-          </p>
-          <p className="testimonial-position" style={{ color: theme.secondaryText }}>
-            {repo.position}
-          </p>
-          <div className="flexDiv">
-            <div className="testimonial-details Leftitem"></div>
-            <div className="testimonial-details Rightitem"></div>
-          </div>
+return (
+  <div className="testimonial-wrapper">
+    <Fade in={fadeIn} timeout={2000}>
+<div
+  {...styles}
+  key={repo.id}
+  style={{ backgroundColor: theme.projectCard }}
+  className={`testimonial-card decorated-card ${theme.name === 'dark' ? 'dark-bg' : 'light-bg'}`}
+>
+
+        <div className="testimonial-name-div">
+          <div className="avatar-circle">{repo.name[0]}</div>
+<p
+  className={`testimonial-name badge-name ${theme.name === 'dark' ? 'dark-badge' : 'light-badge'}`}
+  style={{ color: theme.testimonialName }}
+>
+  {repo.name}
+</p>
+
         </div>
-      </Fade>
-    </div>
-  );
+
+        <p className="testimonial-description" style={{ color: theme.text }}>
+          {repo.testimonial}
+        </p>
+
+        <p className="testimonial-position" style={{ color: theme.secondaryText }}>
+          {repo.position}
+        </p>
+      </div>
+    </Fade>
+  </div>
+);
+
 }

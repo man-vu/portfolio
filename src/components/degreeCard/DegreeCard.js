@@ -35,7 +35,7 @@ function DegreeCard(props) {
     borderLeft: `1px solid ${theme.accentColor}`,
     borderRight: `1px solid ${theme.accentColor}`,
     borderRadius: "7px",
-    width: "90%",
+    width: "100%",
     margin: "10px",
     boxShadow: `0px 1px 5px ${theme.accentColor}`,
     transition: "all 0.2s ease-in-out",
@@ -69,19 +69,22 @@ function DegreeCard(props) {
 
   return (
     <div className="degree-card">
-      <Slide direction="right" in={show} timeout={1000}>
-        <div {...style_img}>
-          <img
-            style={{
-              maxWidth: "100%",
-              maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
-            }}
-            src={require(`../../assets/images/${degree.logo_path}`)}
-            alt={degree.alt_name}
-          />
-        </div>
-      </Slide>
+<Slide direction="right" in={show} timeout={1000}>
+  <div {...style_img} style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <img
+      style={{
+        width: "140px",     // set fixed or percentage size here
+        height: "140px",    // same here
+        objectFit: "contain",
+      }}
+      src={require(`../../assets/images/${degree.logo_path}`)}
+      alt={degree.alt_name}
+    />
+    <div className="degree-badge">🎓</div>
+  </div>
+</Slide>
+
+
 
       <Fade in={show} timeout={1500}>
         <div {...card_body}>

@@ -13,7 +13,7 @@ export default function Projects() {
           return <ProjectCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <a className="resume-btn" href="https://github.com/vuminhman">
+      <a className="resume-btn" href="https://github.com/man-vu">
         More Projects (Github)
       </a>
     </div>

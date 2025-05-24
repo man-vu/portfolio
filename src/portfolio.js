@@ -1,11 +1,4 @@
-/* Change this file to get your personal Porfolio */
 
-// Website related settings
-const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
-};
 
 //Home Page
 const greeting = {
@@ -27,7 +20,7 @@ const socialMediaLinks = {
   github: "https://github.com/man-vu",
   linkedin: "https://www.linkedin.com/in/manvu/",
   gmail: "manvminh@gmail.com",
-  facebook: "https://www.facebook.com/TheTimBlack/",
+  facebook: "https://www.facebook.com/manctgamer/",
   portfolio: "https://manvu.ca/",
 };
 
@@ -37,142 +30,229 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Engaged in full-stack development from UI to backend using technologies like C#, WPF, WCF, SQL, XAML, C++, and Visual Studio.",
-        "⚡ Managed and troubleshooted Microsoft Azure services, delivering production solutions.",
-        "⚡ Crafted utilities to automate tasks, reducing troubleshooting time and resource consumption.",
-        "⚡ Bi-weekly on-call duties, monitoring Azure servers and executing troubleshooting tasks.",
-        "⚡ Collaborated with teams for optimal server health and project deliveries.",
+        "🧱 5+ years building scalable desktop and web platforms using C#, .NET, WPF, WCF, XAML, and SQL Server.",
+        "⚙️ Led automation initiatives that dramatically reduced dev hours and boosted engineering throughput.",
+        "🧪 Refactored legacy codebases and resolved over 1,000 failing unit/integration tests using TDD best practices.",
+        "🚦 Diagnosed and resolved critical performance bottlenecks using SQL profiling tools and algorithm expertise.",
+        "🤝 Collaborated across teams to architect and deliver full-stack features from spec to production deployment.",
       ],
       softwareSkills: [
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#A8B9CC",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#00599C",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            color: "#9A6D38",
-          },
-        },
-        {
-          skillName: ".NET",
-          fontAwesomeClassname: "simple-icons:dotnet",
-          style: {
-            color: "#ECD53F",
-          },
-        },
-        {
-          skillName: "Microsoft SQL Server",
-          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
-          style: {
-            color: "#CC2927",
-          },
-        },
-        {
-          skillName: "Node.js",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "Vue.js",
-          fontAwesomeClassname: "simple-icons:vuedotjs",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Microsoft Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#008AD7",
-          },
-        },
-        {
-          skillName: "Visual Studio",
-          fontAwesomeClassname: "simple-icons:visualstudio",
-          style: {
-            color: "#5C2D91",
-          },
-        },
+        { skillName: "C", fontAwesomeClassname: "simple-icons:c", style: { color: "#A8B9CC" } },
+        { skillName: "C++", fontAwesomeClassname: "simple-icons:cplusplus", style: { color: "#00599C" } },
+        { skillName: "C#", fontAwesomeClassname: "simple-icons:csharp", style: { color: "#9A6D38" } },
+        { skillName: ".NET", fontAwesomeClassname: "simple-icons:dotnet", style: { color: "#512BD4" } },
+        { skillName: "SQL Server", fontAwesomeClassname: "simple-icons:microsoftsqlserver", style: { color: "#CC2927" } },
+        { skillName: "JavaScript", fontAwesomeClassname: "simple-icons:javascript", style: { color: "#F7DF1E" } },
+        { skillName: "React", fontAwesomeClassname: "simple-icons:react", style: { color: "#61DAFB" } },
+        { skillName: "Vue.js", fontAwesomeClassname: "simple-icons:vuedotjs", style: { color: "#41B883" } },
+        { skillName: "Angular", fontAwesomeClassname: "simple-icons:angular", style: { color: "#DD0031" } },
+        { skillName: "Node.js", fontAwesomeClassname: "simple-icons:nodedotjs", style: { color: "#339933" } },
+        { skillName: "Visual Studio", fontAwesomeClassname: "simple-icons:visualstudio", style: { color: "#5C2D91" } },
+        { skillName: "jQuery", fontAwesomeClassname: "simple-icons:jquery", style: { color: "#0769AD" } },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infrastructure & DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience in managing Microsoft Azure services.",
-        "⚡ On-call duties for monitoring Azure servers and handling production issues.",
-        "⚡ Worked on optimizing server health and managing cloud infrastructure.",
+        "☁️ Designed and monitored Azure-based services for production applications using DevOps pipelines.",
+        "📉 Reduced downtime by leading server health monitoring and on-call rotations using Azure tools.",
+        "🔍 Automated data integrity checks and clinical note validation tools for mission-critical systems.",
+        "📝 Authored internal documentation that accelerated new developer onboarding and standardized deployment processes.",
       ],
       softwareSkills: [
-        // ... (Retain the skills from your original list like AWS, Netlify, etc.)
+        { skillName: "Azure", fontAwesomeClassname: "simple-icons:microsoftazure", style: { color: "#008AD7" } },
+        { skillName: "Azure DevOps", fontAwesomeClassname: "simple-icons:azuredevops", style: { color: "#0078D7" } },
+        { skillName: "Git", fontAwesomeClassname: "simple-icons:git", style: { color: "#F05032" } },
+        { skillName: "CI/CD", fontAwesomeClassname: "simple-icons:circleci", style: { color: "#343434" } },
+        { skillName: "PowerShell", fontAwesomeClassname: "simple-icons:powershell", style: { color: "#5391FE" } },
+      ],
+    },
+    {
+      title: "Data Science & Machine Learning",
+      fileName: "DataScienceImg",
+      skills: [
+        "📊 Analyzed datasets and generated actionable insights using Python, Pandas, and SQL.",
+        "🧠 Built and evaluated machine learning models including regression, classification, and neural networks.",
+        "🔬 Applied supervised learning techniques from Stanford ML and DeepLearning.AI specializations.",
+        "📈 Completed Google's Data Analytics and Advanced Data Analytics professional certifications.",
+      ],
+      softwareSkills: [
+        { skillName: "Python", fontAwesomeClassname: "simple-icons:python", style: { color: "#3776AB" } },
+        { skillName: "Pandas", fontAwesomeClassname: "simple-icons:pandas", style: { color: "#150458" } },
+        { skillName: "NumPy", fontAwesomeClassname: "simple-icons:numpy", style: { color: "#013243" } },
+        { skillName: "TensorFlow", fontAwesomeClassname: "simple-icons:tensorflow", style: { color: "#FF6F00" } },
+        { skillName: "Keras", fontAwesomeClassname: "simple-icons:keras", style: { color: "#D00000" } },
+        { skillName: "Jupyter", fontAwesomeClassname: "simple-icons:jupyter", style: { color: "#F37626" } },
+        { skillName: "scikit-learn", fontAwesomeClassname: "simple-icons:scikitlearn", style: { color: "#F7931E" } },
+      ],
+    },
+    {
+      title: "Project Management & Communication",
+      fileName: "ProjectMgmtImg",
+      skills: [
+        "📅 Experienced in managing tasks and timelines using Microsoft Project and agile tools.",
+        "🗣️ Certified in IELTS Academic 8.0 and General Training 8.5, ensuring strong communication in English-speaking teams.",
+        "🧭 Coordinated cross-functional teams and streamlined development processes through effective documentation.",
+      ],
+      softwareSkills: [
+        { skillName: "Microsoft Project", fontAwesomeClassname: "simple-icons:microsoftoffice", style: { color: "#BA141A" } },
+        { skillName: "Markdown", fontAwesomeClassname: "simple-icons:markdown", style: { color: "#000000" } },
+        { skillName: "Slack", fontAwesomeClassname: "simple-icons:slack", style: { color: "#4A154B" } },
+      ],
+    },
+  ],
+};
+
+
+const experience = {
+  title: "Professional Experience",
+  description:
+    "Full-time Software Developer with 5+ years of experience building scalable applications, automating infrastructure, and leveraging AI tools for efficient problem-solving.",
+  header_image_path: "experience.svg",
+  sections: [
+    {
+      title: "",
+      experiences: [
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#008AD7",
-          },
+          title: "Software Developer",
+          company: "ABELSoft Inc.",
+          company_url: "http://abelsoft.com/",
+          logo_path: "abelsoft.jpg",
+          duration: "Jan 2020 - Present",
+          location: "Burlington, Ontario, Canada",
+          description: [
+            "🧩 Full-stack development using C#, SQL, WPF, and WCF across mission-critical products.",
+            "🛠️ Automated SQL deployments with PowerShell, reducing errors and deployment time by 50%.",
+            "🤖 Proficient in daily use of GitHub Copilot and ChatGPT to solve development and debugging tasks.",
+            "🔁 Maintained CI/CD pipelines in Azure DevOps, ensuring system uptime and delivery consistency.",
+            "🐞 Resolved high-priority production bugs, improving system stability and customer trust.",
+          ],
+          color: "#7F00FF",
+        },
+        {
+          title: "iOS Engineer",
+          company: "E-RegisterNow",
+          company_url: "https://e-registernow.com/",
+          logo_path: "eregisternow.png",
+          duration: "May 2019 - Aug 2019",
+          location: "Mississauga, Ontario, Canada",
+          description: [
+            "📱 Built native iOS apps integrating RESTful APIs for real-time event systems.",
+            "🤝 Collaborated with cross-functional teams to deliver intuitive mobile experiences.",
+          ],
+          color: "#7F00FF",
         },
       ],
     },
   ],
 };
 
+
 const degrees = {
-  degrees: [
+  completedDegrees: [
     {
-      title: "Mohawk College",
+      title: "Advanced Diploma in Software Development",
       subtitle:
-        "Advanced Diploma in Computer Software Technology - Software Development",
+        "Mohawk College",
       logo_path: "mohawkcollege.jpg",
       alt_name: "Mohawk",
       duration: "Jan 2019 - Aug 2021",
       descriptions: [
-        "⚡ Graduated early from a three-year program in 2 years and 8 months.",
-        "⚡ Achieved a GPA of 90%.",
-        "⚡ Proficient in AWS, .NET Core, and SQL Databases.",
-        "⚡ Gained experience with Node.js, React, Angular, and Vue.",
-        "⚡ Scored perfectly in data structures & algorithms, front-end web development,and machine learning.",
-        "⚡ Actively participated in Hamilton JavaScript meetups and TND community events.",
-        "⚡ Undertook three co-op terms and an 8-month contract with ABELSoft.",
-        "⚡ Received recognition for exemplary performance in Data Structures and Algorithms.",
-        "⚡ Collaborated on a project for Apex Pest Control using Angular, jQuery, and ASP.NET Core. This collaboration led to an annual grant for Mohawk College.",
+        "🎓 Graduated early from a three-year program in 2 years and 8 months with a 90% GPA.",
+        "💻 Proficient in AWS, .NET Core, SQL Databases, and experienced with Node.js, React, Angular, and Vue.",
+        "🏅 Scored perfectly in Data Structures & Algorithms, Front-End Web Development, and Machine Learning; received recognition for academic excellence.",
+        "🤝 Actively participated in Hamilton JavaScript meetups and TND community events.",
+        "🛠️ Completed three co-op terms and an 8-month contract with ABELSoft, gaining real-world development experience.",
+        "🚀 Led a project for Apex Pest Control using Angular, jQuery, and ASP.NET Core — resulting in an annual grant for Mohawk College.",
       ],
       website_link:
-        "https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559", // I used a placeholder link. Please update if necessary.
+        "https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559",
       transcript_link:
         "https://drive.google.com/file/d/1-dzbuRENcCxSpY0UY0Ap3gKvtCFhQNA1/view?usp=sharing",
       additional_info: {
         gpa: "90%",
         honors: "Honours Graduate",
-        transcripts: "Show Transcripts", // You can replace this with a link or other info if needed.
+        transcripts: "Show Transcripts",
       },
     },
   ],
+  inProgressDegrees: [
+    {
+      title: "Honours B.Sc. in Computer Science",
+      subtitle: "University of Ottawa",
+      logo_path: "uottawa_logo.png",
+      alt_name: "uOttawa",
+      duration: "Sep 2024 - Dec 2025 (Expected)",
+      descriptions: [
+        "🎓 Admitted with the maximum 57 transfer credits and on track to graduate in just over a year, demonstrating exceptional academic capability and time management.",
+        "💼 Studying full-time while working full-time as a Software Developer at ABELSoft, maintaining strong academic performance.",
+        "🧠 Focused on AI, operating systems, software design, and database architecture, with ongoing self-directed research in artificial intelligence.",
+        "🎯 Planning to pursue a Master’s degree in Artificial Intelligence or Natural Language Processing by 2026.",
+      ],
+      website_link: "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science/course-sequence"
+    }
+  ]
 };
+
 
 const certifications = {
   certifications: [
+    {
+  title: "Google Advanced Data Analytics",
+  subtitle: "Google",
+  logo_path: "google_logo.png",
+  certificate_link: "https://www.coursera.org/account/accomplishments/certificate/UUHUVJ3X2ZWD",
+  alt_name: "Google",
+  color_code: "#F4B400",
+  issued: "Jul 2024",
+  credential_id: "UUHUVJ3X2ZWD",
+  skills: ["Data Science", "Data Analytics"],
+},
+{
+  title: "Google Data Analytics",
+  subtitle: "Google",
+  logo_path: "google_logo.png",
+  certificate_link: "https://www.coursera.org/account/accomplishments/certificate/KSPBFUZ2DWZS",
+  alt_name: "Google",
+  color_code: "#F4B400",
+  issued: "Jul 2024",
+  credential_id: "KSPBFUZ2DWZS",
+  skills: ["Data Analytics"],
+},
+{
+  title: "Microsoft Azure Data Scientist Associate (DP-100)",
+  subtitle: "Microsoft",
+  logo_path: "microsoft_logo.png",
+  certificate_link: "https://www.coursera.org/account/accomplishments/specialization/NNVTH8JX7YA3", // placeholder, replace if you have the exact link
+  alt_name: "Microsoft",
+  color_code: "#0078D4",
+  issued: "Jun 2024",
+  credential_id: "NNVTH8JX7YA3",
+  skills: ["Data Science", "Machine Learning"],
+},
+{
+  title: "Microsoft Azure Developer Associate (AZ-204)",
+  subtitle: "Microsoft",
+  logo_path: "microsoft_logo.png",
+  certificate_link: "https://www.coursera.org/account/accomplishments/professional-cert/V9NUWMSRTUGD", // placeholder, replace if available
+  alt_name: "Microsoft",
+  color_code: "#0078D4",
+  issued: "Dec 2023",
+  credential_id: "V9NUWMSRTUGD",
+  skills: ["Cloud Computing"],
+},
+{
+  title: "Algorithmic Toolbox",
+  subtitle: "Coursera",
+  logo_path: "coursera_logo.png",
+  certificate_link: "https://www.coursera.org/account/accomplishments/certificate/6BRBJQYWG4XE",
+  alt_name: "Coursera",
+  color_code: "#2A73CC",
+  issued: "Sep 2023",
+  credential_id: "6BRBJQYWG4XE",
+  skills: ["Algorithm Design", "Algorithms"],
+},
     {
       title: "Meta Front-End Developer Specialization",
       subtitle: "Meta",
@@ -182,7 +262,7 @@ const certifications = {
       alt_name: "Meta",
       color_code: "rgb(239 245 255)", // Update the color code as needed
       projects:
-        "https://github.com/vuminhman?tab=repositories&q=course-&type=&language=&sort=",
+        "https://github.com/man-vu?tab=repositories&q=course-&type=&language=&sort=",
     },
     {
       title: "Neural Networks and Deep Learning",
@@ -372,56 +452,6 @@ const certifications = {
   ],
 };
 
-// Experience Page
-const experience = {
-  title: "Professional Experience",
-  subtitle: "",
-  description:
-    "I've undertaken independent projects, boast 4 years of professional software development experience, and am actively seeking new tech opportunities.",
-  header_image_path: "experience.svg",
-  sections: [
-    {
-      title: "Work Experience",
-      experiences: [
-        {
-          title: "Software Developer",
-          company: "ABELSoft Inc.",
-          company_url: "http://abelsoft.com/",
-          logo_path: "abelsoft.jpg",
-          duration: "Jan 2020 - Present",
-          location: "Burlington, Ontario, Canada",
-          description: [
-            "⚡ Developed full-stack dental practice management applications, optimizing front-end, middle-tier, and back-end layers.",
-            "⚡ Leveraged technologies such as C#, WPF, WCF, SQL, XAML, C++, and Visual Studio for diverse development needs.",
-            "⚡ Resolved 10-15 critical monthly production bugs and managed Azure services, improving system reliability.",
-            "⚡ Automated doctors' notes compilation with a C# Clinical Note Utility, reducing troubleshooting time by 60%.",
-            "⚡ Streamlined SQL deployments with Powershell, cutting time by 50% and reducing manual errors by 40%.",
-            "⚡ Minimized troubleshooting time and resource use through effective automation.",
-            "⚡ Conducted bi-weekly on-call duties, ensuring rapid response and server health.",
-            "⚡ Collaborated with cross-functional teams for seamless project deliveries.",
-          ],
-          
-          color: "#7F00FF",
-        },
-        {
-          title: "iOS Engineer",
-          company: "E-RegisterNow",
-          company_url: "https://e-registernow.com/",
-          logo_path: "eregisternow.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Mississauga, Ontario, Canada",
-          description: [
-            "⚡ Architected and developed native iOS applications from the ground up.",
-            "⚡ Joined forces with a focused team to conceptualize and implement innovative product features.",
-            "⚡ Integrated applications seamlessly with the company’s backend services via RESTful APIs.",
-          ],
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#7F00FF",
-        },
-      ],
-    },
-  ],
-};
 
 // Projects Page
 const projectsHeader = {
@@ -450,7 +480,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "Though I mainly focus on tech, I occasionally share insightful IELTS preparation tips on my Facebook page. My advice, especially tailored for non-native English speakers tackling the International English Language Testing System, has proven beneficial for many.",
-    link: "https://facebook.com/TheTimBlack",
+    link: "https://facebook.com/manctgamer",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -492,7 +522,7 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/vuminhman/mohawk-capstone-study-english",
+          url: "https://github.com/man-vu/mohawk-capstone-study-english",
           iconifyClass: "ri:github-fill",
         },
         {
@@ -530,7 +560,7 @@ const projects = {
         {
           name: "Github",
           url:
-            "https://github.com/vuminhman/course-8th-meta-front-end-capstone",
+            "https://github.com/man-vu/course-8th-meta-front-end-capstone",
           iconifyClass: "ri:github-fill",
         },
         {
@@ -599,7 +629,6 @@ const testimonials = {
 };
 
 export {
-  settings,
   greeting,
   socialMediaLinks,
   skills,

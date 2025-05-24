@@ -56,7 +56,7 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/vuminhman"
+        href="https://github.com/man-vu"
         target="_blank"
         rel="noopener noreferrer"
       >
