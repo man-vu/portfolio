@@ -1,6 +1,6 @@
 .projects-main {
   width: 100%;
-  text-align: center;
+
 }
 
 .basic-projects {
@@ -56,13 +56,12 @@
 }
 
 .repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 60px 40px 0 40px;
 }
+
 
 @media (max-width: 1380px) {
   .projects-heading-text {
@@ -102,4 +101,9 @@
     margin-right: 10px;
     margin-top: 30px;
   }
+}
+
+.center-btn-wrapper {
+  text-align: center;
+  margin-top: 2rem;
 }

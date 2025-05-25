@@ -1,4 +1,4 @@
-import React from "react";
+
 import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 import "./ExperienceAccordion.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";

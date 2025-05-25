@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./FeelingProud.css";
 
 function FeelingProud(props) {

@@ -53,15 +53,18 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/man-vu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        More Projects (Github)
-      </a>
+      <div className="center-btn-wrapper">
+        <a
+          {...styles}
+          className="general-btn"
+          href="https://github.com/man-vu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          More Projects (Github)
+        </a>
+      </div>
+
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

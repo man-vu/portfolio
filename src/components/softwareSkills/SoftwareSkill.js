@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Icon } from "@iconify/react";

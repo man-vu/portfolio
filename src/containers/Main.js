@@ -1,4 +1,3 @@
-import React from "react";
 import "./Main.css";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
