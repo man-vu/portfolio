@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Google Sans Regular', sans-serif;
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
+    scroll-behavior: smooth;
     transition: all 0.25s linear;
   }
 `;

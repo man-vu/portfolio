@@ -7,6 +7,7 @@ import Projects from "../pages/projects/Projects";
 import Testimonials from "../pages/testimonials/Testimonials";
 import Header from "../components/header/Header";
 import SectionWrapper from "../components/SectionWrapper";
+import ScrollTopButton from "../components/scrollTopButton/ScrollTopButton";
 
 export default function Main(props) {
   const theme = props.theme;
@@ -40,6 +41,7 @@ export default function Main(props) {
           <Contact theme={theme} setTheme={setTheme} />
         </SectionWrapper>
       </div>
+      <ScrollTopButton theme={theme} />
     </div>
   );
 }
