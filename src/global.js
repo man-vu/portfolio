@@ -8,6 +8,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --accent-color: ${({ theme }) => theme.accentColor};
+    --accent-bright: ${({ theme }) => theme.accentBright};
+  }
+
   body {
     margin: 0;
     padding: 0;
