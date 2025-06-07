@@ -914,7 +914,7 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/man-vu/dreamy-nails",
+          url: "https://github.com/man-vu/SEG-3125-Assignment2-Nail-Salon",
           iconifyClass: "ri:github-fill",
         },
         {
