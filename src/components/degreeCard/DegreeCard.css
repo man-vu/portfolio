@@ -101,8 +101,9 @@
   }
 
   .education-item-footer a p {
-    marginLeft: 0; /* Reset left margin */
-    marginRight: 0; /* Reset right margin */
+    margin-left: 0; /* Reset left margin */
+    margin-right: 0; /* Reset right margin */
+    width: 100%;
   }
 
   .visit-website-btn {
