@@ -1,3 +1,8 @@
+
+.skills-tabs {
+  margin-top: 50px;
+}
+
 .skills-main-div {
   display: flex;
 }
@@ -16,8 +21,18 @@
 .skills-text-div {
   margin-left: 50px;
   margin-top: 3%;
-  padding-top: 80px;
+  padding-top: 40px;
   font-family: "Google Sans Regular";
+}
+
+.skills-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.skills-tab-panel {
+  margin-top: 30px;
 }
 
 .skills-main-div > * {
@@ -31,28 +46,8 @@
   margin-top: 100px;
 }
 
-.skills-heading {
-  font-size: 50px;
-  font-weight: 400;
-  text-align: center;
-  padding-bottom: 10px;
-  font-family: "Google Sans Regular";
-}
-
 /* Media Query */
-@media (max-width: 1380px) {
-  .skills-heading {
-    font-size: 40px;
-  }
-  .skills-header {
-    font-size: 50px;
-  }
-}
 @media (max-width: 768px) {
-  .skills-heading {
-    font-size: 30px;
-    text-align: center;
-  }
   .skills-header {
     font-size: 30px;
   }

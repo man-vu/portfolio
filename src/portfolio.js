@@ -25,11 +25,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "🧱 5+ years building scalable desktop and web platforms using C#, .NET, WPF, WCF, XAML, and SQL Server.",
-        "⚙️ Led automation initiatives that dramatically reduced dev hours and boosted engineering throughput.",
-        "🧪 Refactored legacy codebases and resolved over 1,000 failing unit/integration tests using TDD best practices.",
-        "🚦 Diagnosed and resolved critical performance bottlenecks using SQL profiling tools and algorithm expertise.",
-        "🤝 Collaborated across teams to architect and deliver full-stack features from spec to production deployment.",
+        "Scalable .NET and web apps",
+        "Automated deployments and legacy cleanup",
+        "Performance fixes and reliable tests",
       ],
       softwareSkills: [{
           skillName: "C",
@@ -121,10 +119,9 @@ const skills = {
       title: "Cloud Infrastructure & DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "☁️ Designed and monitored Azure-based services for production applications using DevOps pipelines.",
-        "📉 Reduced downtime by leading server health monitoring and on-call rotations using Azure tools.",
-        "🔍 Automated data integrity checks and clinical note validation tools for mission-critical systems.",
-        "📝 Authored internal documentation that accelerated new developer onboarding and standardized deployment processes.",
+        "Azure services via DevOps pipelines",
+        "Server monitoring to reduce downtime",
+        "Automated checks and documented deploys",
       ],
       softwareSkills: [{
           skillName: "Azure",
@@ -167,10 +164,9 @@ const skills = {
       title: "Data Science & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "📊 Analyzed datasets and generated actionable insights using Python, Pandas, and SQL.",
-        "🧠 Built and evaluated machine learning models including regression, classification, and neural networks.",
-        "🔬 Applied supervised learning techniques from Stanford ML and DeepLearning.AI specializations.",
-        "📈 Completed Google's Data Analytics and Advanced Data Analytics professional certifications.",
+        "Analyze data with Python and SQL",
+        "Build regression and classification models",
+        "Google and Stanford analytics certificates",
       ],
       softwareSkills: [{
           skillName: "Python",
@@ -241,11 +237,10 @@ const experience = {
         duration: "Jan 2020 - Present",
         location: "Burlington, Ontario, Canada",
         description: [
-          "🧩 Full-stack development using C#, SQL, WPF, and WCF across mission-critical products.",
-          "🛠️ Automated SQL deployments with PowerShell, reducing errors and deployment time by 50%.",
-          "🤖 Proficient in daily use of GitHub Copilot and ChatGPT to solve development and debugging tasks.",
-          "🔁 Maintained CI/CD pipelines in Azure DevOps, ensuring system uptime and delivery consistency.",
-          "🐞 Resolved high-priority production bugs, improving system stability and customer trust.",
+          "Developed mission-critical products with C#, SQL, WPF and WCF.",
+          "Automated SQL deployments with PowerShell, cutting release time by 50%.",
+          "Used GitHub Copilot and ChatGPT to accelerate development and debugging.",
+          "Maintained Azure DevOps pipelines and resolved high-priority production issues.",
         ],
         color: "#7F00FF",
       },
@@ -257,8 +252,8 @@ const experience = {
         duration: "May 2019 - Aug 2019",
         location: "Mississauga, Ontario, Canada",
         description: [
-          "📱 Built native iOS apps integrating RESTful APIs for real-time event systems.",
-          "🤝 Collaborated with cross-functional teams to deliver intuitive mobile experiences.",
+          "Built native iOS apps integrating RESTful APIs for real-time events.",
+          "Collaborated with cross-functional teams to deliver intuitive mobile experiences.",
         ],
         color: "#7F00FF",
       },
@@ -275,12 +270,9 @@ const degrees = {
     alt_name: "Mohawk",
     duration: "Jan 2019 - Aug 2021",
     descriptions: [
-      "🎓 Graduated early from a three-year program in 2 years and 8 months with a 90% GPA.",
-      "💻 Proficient in AWS, .NET Core, SQL Databases, and experienced with Node.js, React, Angular, and Vue.",
-      "🏅 Scored perfectly in Data Structures & Algorithms, Front-End Web Development, and Machine Learning; received recognition for academic excellence.",
-      "🤝 Actively participated in Hamilton JavaScript meetups and TND community events.",
-      "🛠️ Completed three co-op terms and an 8-month contract with ABELSoft, gaining real-world development experience.",
-      "🚀 Led a project for Apex Pest Control using Angular, jQuery, and ASP.NET Core — resulting in an annual grant for Mohawk College.",
+      "Graduated early from a three-year program with a 90% GPA.",
+      "Proficient in AWS, .NET Core, SQL databases and modern web frameworks.",
+      "Completed three co-op terms and led a project recognized with a college grant.",
     ],
     website_link: "https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559",
     transcript_link: "https://drive.google.com/file/d/1-dzbuRENcCxSpY0UY0Ap3gKvtCFhQNA1/view?usp=sharing",
@@ -297,10 +289,9 @@ const degrees = {
     alt_name: "uOttawa",
     duration: "Sep 2024 - Dec 2025 (Expected)",
     descriptions: [
-      "🎓 Admitted with the maximum 57 transfer credits and on track to graduate in just over a year, demonstrating exceptional academic capability and time management.",
-      "💼 Studying full-time while working full-time as a Software Developer at ABELSoft, maintaining strong academic performance.",
-      "🧠 Focused on AI, operating systems, software design, and database architecture, with ongoing self-directed research in artificial intelligence.",
-      "🎯 Planning to pursue a Master’s degree in Artificial Intelligence or Natural Language Processing by 2026.",
+      "Admitted with 57 transfer credits and on track to graduate in just over a year.",
+      "Studying full-time while working full-time as a Software Developer at ABELSoft.",
+      "Focusing on AI, operating systems and software design with plans for graduate studies.",
     ],
     website_link: "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science/course-sequence",
     transcript_link: "https://drive.google.com/file/d/1n1kD24rhGTHgzcgqkkmp2_cWWa4LdJL2/view?usp=sharing",
@@ -335,7 +326,7 @@ const certifications = {
       title: "Microsoft Azure Data Scientist Associate (DP-100)",
       subtitle: "Microsoft",
       logo_path: "microsoft_logo.png",
-      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/NNVTH8JX7YA3", // placeholder, replace if you have the exact link
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/NNVTH8JX7YA3",
       alt_name: "Microsoft",
       color_code: "#0078D4",
       issued: "Jun 2024",
@@ -346,7 +337,7 @@ const certifications = {
       title: "Microsoft Azure Developer Associate (AZ-204)",
       subtitle: "Microsoft",
       logo_path: "microsoft_logo.png",
-      certificate_link: "https://www.coursera.org/account/accomplishments/professional-cert/V9NUWMSRTUGD", // placeholder, replace if available
+      certificate_link: "https://www.coursera.org/account/accomplishments/professional-cert/V9NUWMSRTUGD",
       alt_name: "Microsoft",
       color_code: "#0078D4",
       issued: "Dec 2023",
@@ -367,27 +358,27 @@ const certifications = {
     {
       title: "Meta Front-End Developer Specialization",
       subtitle: "Meta",
-      logo_path: "meta.png", // Add the appropriate logo file path
+      logo_path: "meta.png",
       certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/CPN5DGFBMEQD",
       alt_name: "Meta",
-      color_code: "rgb(239 245 255)", // Update the color code as needed
+      color_code: "rgb(239 245 255)",
       projects: "https://github.com/man-vu?tab=repositories&q=course-&type=&language=&sort=",
     },
     {
       title: "Neural Networks and Deep Learning",
       subtitle: "DeepLearning.AI",
-      logo_path: "deeplearningai.png", // You'll need to provide the appropriate logo path
+      logo_path: "deeplearningai.png",
       certificate_link: "https://www.coursera.org/account/accomplishments/certificate/4ZDVEUS8H6FJ",
       alt_name: "DeepLearning.AI",
-      color_code: "rgb(245 245 245)", // Placeholder color, update as needed
+      color_code: "rgb(245 245 245)",
       additional_info: {
         issue_date: {
           month: "September",
           year: 2023,
         },
         expiration_date: {
-          month: "Month", // Placeholder, update with actual value
-          year: "Year", // Placeholder, update with actual value
+          month: "Month",
+          year: "Year",
         },
         credential_id: "4ZDVEUS8H6FJ",
         skills: ["Machine Learning", "Deep Learning", "Data Science"],
@@ -396,18 +387,18 @@ const certifications = {
     {
       title: "Supervised Machine Learning: Regression and Classification",
       subtitle: "Stanford University",
-      logo_path: "stanforduniversity.png", // You'll need to provide the appropriate logo path
+      logo_path: "stanforduniversity.png",
       certificate_link: "https://www.coursera.org/account/accomplishments/certificate/AUSDDALCQX7P",
       alt_name: "Stanford University",
-      color_code: "rgb(245 245 245)", // Placeholder color, update as needed
+      color_code: "rgb(245 245 245)",
       additional_info: {
         issue_date: {
           month: "September",
           year: 2023,
         },
         expiration_date: {
-          month: "Month", // Placeholder, update with actual value
-          year: "Year", // Placeholder, update with actual value
+          month: "Month",
+          year: "Year",
         },
         credential_id: "AUSDDALCQX7P",
         skills: ["Machine Learning"],
@@ -457,18 +448,18 @@ const certifications = {
     {
       title: "AZ-204: Developing Solutions for Microsoft Azure",
       subtitle: "Udemy",
-      logo_path: "udemy.png", // Add the appropriate logo file path
+      logo_path: "udemy.png",
       certificate_link: "https://www.udemy.com/certificate/UC-2b636227-68ef-432f-a267-7f76f5bace1e/",
       alt_name: "Microsoft Azure",
-      color_code: "#B045EF", // Update the color code as needed
+      color_code: "#B045EF",
     },
     {
       title: "IELTS Academic 8.0/9.0 Overall",
       subtitle: "British Council IELTS (International English Language Testing System)",
-      logo_path: "IELTS.png", // Add the appropriate logo file path
+      logo_path: "IELTS.png",
       certificate_link: "https://drive.google.com/file/d/1Bqf1JGyr9EALsihpczphjK98TRy7GRLe/view?usp=drive_link",
       alt_name: "IELTS Academic",
-      color_code: "#D83135", // Update the color code as needed
+      color_code: "#D83135",
     },
     {
       title: "IELTS General Training 8.5/9.0 Overall",
@@ -531,16 +522,6 @@ const certifications = {
         "Backend",
       ],
     },
-
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
@@ -567,7 +548,7 @@ const contactPageData = {
   },
   blogSection: {
     title: "Blogs",
-    subtitle: "Though I mainly focus on tech, I occasionally share insightful IELTS preparation tips on my Facebook page. My advice, especially tailored for non-native English speakers tackling the International English Language Testing System, has proven beneficial for many.",
+    subtitle: "I also post occasional tech and IELTS tips on my Facebook page.",
     link: "https://facebook.com/manctgamer",
     avatar_image_path: "blogs_image.svg",
   },
