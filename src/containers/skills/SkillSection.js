@@ -3,48 +3,68 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import Fade from "@mui/material/Fade";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Box from "@mui/material/Box";
+
+function TabPanel({ children, value, index }) {
+  return (
+    <div role="tabpanel" hidden={value !== index}>
+      {value === index && <Box className="skills-tab-panel">{children}</Box>}
+    </div>
+  );
+}
 
 function SkillSection(props) {
   const theme = props.theme;
   const [fadeIn, setFadeIn] = useState(false);
+  const [tabIndex, setTabIndex] = useState(0);
 
   useEffect(() => {
     setFadeIn(true); // Trigger fade-in animation once component mounts
   }, []);
 
+  const handleChange = (event, newValue) => {
+    setTabIndex(newValue);
+  };
+
   return (
-    <div>
-      {skills.data.map((skill, index) => {
-        return (
-          <div key={index} className="skills-main-div">
-            <div className="skills-text-div">
-              <Fade in={fadeIn} timeout={1000}>
-                <h1 className="skills-heading" style={{ color: theme.text }}>
-                  {skill.title}
-                </h1>
-              </Fade>
-              <Fade in={fadeIn} timeout={1500}>
-                <div>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </div>
-              </Fade>
-              <Fade in={fadeIn} timeout={2000}>
-                <div>
-                  {skill.skills.map((sentence, idx) => (
-                    <p
-                      key={idx}
-                      className="subTitle skills-text"
-                      style={{ color: theme.primaryText }}
-                    >
-                      {sentence}
-                    </p>
-                  ))}
-                </div>
-              </Fade>
-            </div>
+    <div className="skills-tabs">
+      <Tabs
+        value={tabIndex}
+        onChange={handleChange}
+        centered
+        textColor="primary"
+        indicatorColor="primary"
+      >
+        {skills.data.map((skill, index) => (
+          <Tab
+            key={index}
+            label={skill.title}
+            sx={{ color: theme.text }}
+          />
+        ))}
+      </Tabs>
+      {skills.data.map((skill, index) => (
+        <TabPanel key={index} value={tabIndex} index={index}>
+          <div className="skills-text-div">
+            <Fade in={fadeIn} timeout={1000}>
+              <div>
+                <SoftwareSkill logos={skill.softwareSkills} />
+              </div>
+            </Fade>
+            <Fade in={fadeIn} timeout={1500}>
+              <ul className="skills-list" style={{ color: theme.primaryText }}>
+                {skill.skills.map((sentence, idx) => (
+                  <li key={idx} className="skills-text">
+                    {sentence}
+                  </li>
+                ))}
+              </ul>
+            </Fade>
           </div>
-        );
-      })}
+        </TabPanel>
+      ))}
     </div>
   );
 }
