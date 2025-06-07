@@ -5,6 +5,13 @@
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .experience-card-logo-div {
@@ -22,6 +29,8 @@
 
 .experience-card-logo {
   width: 70px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
 }
 
 .experience-card-title {
@@ -31,12 +40,15 @@
   margin-left: 0px;
   margin-right: 7px;
   text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .experience-card-company {
   font-family: "Google Sans Regular";
   margin: 0;
   text-align: left;
+  font-size: 1rem;
 }
 
 .experience-card-duration {
@@ -74,6 +86,8 @@
   text-align: justify;
   margin-right: 20px;
   font-family: "Google Sans Regular";
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .experience-card-company > a {
