@@ -7,10 +7,10 @@
 
 .certifications-body-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns by default */
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding: 0 2rem;
-  justify-items: center; /* Center items horizontally in grid cells */
+  justify-items: center;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -22,10 +22,17 @@
   }
 }
 
-/* Small screens: switch to one column */
+/* Small screens: horizontal scroll to reduce vertical space */
 @media (max-width: 768px) {
   .certifications-body-div {
-    grid-template-columns: 1fr;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+  }
+
+  .certifications-body-div::-webkit-scrollbar {
+    display: none;
   }
 
   .certifications-header {

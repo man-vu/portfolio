@@ -33,7 +33,9 @@ function SkillSection(props) {
       <Tabs
         value={tabIndex}
         onChange={handleChange}
-        centered
+        variant="scrollable"
+        scrollButtons="auto"
+        allowScrollButtonsMobile
         textColor="primary"
         indicatorColor="primary"
       >
