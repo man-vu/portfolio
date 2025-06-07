@@ -52,19 +52,18 @@ function DegreeCard(props) {
     textDecoration: "none",
     color: "#fff",
     background: theme.accentColor,
-    padding: "15px",
+    padding: "15px 20px",
     marginTop: "25px",
     borderRadius: "50px",
     borderWidth: "0px",
     marginBottom: "20px",
-    width: "200px",
-    height: "50px",
     fontWeight: "bold",
     fontFamily: "Google Sans Regular",
     fontSize: "17px",
     transition: "all 0.2s ease-in-out",
     cursor: "pointer",
     textAlign: "center",
+    display: "block",
   };
 
   return (
@@ -126,7 +125,7 @@ function DegreeCard(props) {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <p style={{ ...button_style, marginLeft: "23px" }}>
+                  <p className="education-btn" style={{ ...button_style }}>
                     Show Transcripts
                   </p>
                 </a>
@@ -139,7 +138,7 @@ function DegreeCard(props) {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <p style={{ ...button_style, marginRight: "23px" }}>
+                  <p className="education-btn" style={{ ...button_style }}>
                     Visit Website
                   </p>
                 </a>

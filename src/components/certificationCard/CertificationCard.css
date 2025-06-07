@@ -109,6 +109,10 @@
   justify-content: space-around;
 }
 
+.cert-footer a {
+  margin: 10px;
+}
+
 .see-projects-btn {
   padding: 10px 20px;
   font-family: "Google Sans Regular";
@@ -133,5 +137,22 @@
   &:focus {
     outline: none;  /* Remove default focus outline */
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* A blue glow for focus state */
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cert-footer a {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .see-projects-btn {
+    width: 100%;
+    font-size: 16px;
   }
 }

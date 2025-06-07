@@ -107,9 +107,11 @@
     font-size: 30px;
     margin-top: 0px;
     text-align: center;
+    line-height: 1.2; /* prevent title overlap */
   }
   .greeting-nickname {
     font-size: 25px;
+    line-height: 1.2;
     text-align: center;
   }
   .greeting-text-p {
