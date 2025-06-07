@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb544180.css",
-    "main.js": "/static/js/main.282110dd.js",
+    "main.css": "/static/css/main.a8b85092.css",
+    "main.js": "/static/js/main.f98a6469.js",
     "static/js/488.d384302e.chunk.js": "/static/js/488.d384302e.chunk.js",
     "static/media/phodelight_1.png": "/static/media/phodelight_1.477b546f55c076a62f7e.png",
+    "static/media/dreamy_nails4.png": "/static/media/dreamy_nails4.6dddc3a36dd50ffbe582.png",
     "static/media/phodelight_2.png": "/static/media/phodelight_2.5d1da58424e76d9dcb20.png",
+    "static/media/dreamy_nails1.png": "/static/media/dreamy_nails1.6e9e9f35d07cb51efa5e.png",
     "static/media/avatar.jpg": "/static/media/avatar.de41b67a4f3f29c820e1.jpg",
     "static/media/mainbackground.png": "/static/media/mainbackground.56626e462e53e83047d5.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/dreamy_nails2.png": "/static/media/dreamy_nails2.9bf0030c1dce5afff7a9.png",
+    "static/media/dreamy_nails3.png": "/static/media/dreamy_nails3.a728a0ff756f8e458e37.png",
     "static/media/capstone026.png": "/static/media/capstone026.26b2c3a1d63dbd490961.png",
     "static/media/capstone023.png": "/static/media/capstone023.d330ea9295f411480afc.png",
     "static/media/habitbuster_3.png": "/static/media/habitbuster_3.463bbfd4c8ac3245d646.png",
@@ -106,12 +110,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.eb544180.css.map": "/static/css/main.eb544180.css.map",
-    "main.282110dd.js.map": "/static/js/main.282110dd.js.map",
+    "main.a8b85092.css.map": "/static/css/main.a8b85092.css.map",
+    "main.f98a6469.js.map": "/static/js/main.f98a6469.js.map",
     "488.d384302e.chunk.js.map": "/static/js/488.d384302e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb544180.css",
-    "static/js/main.282110dd.js"
+    "static/css/main.a8b85092.css",
+    "static/js/main.f98a6469.js"
   ]
 }
