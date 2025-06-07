@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8b85092.css",
-    "main.js": "/static/js/main.f98a6469.js",
+    "main.js": "/static/js/main.b59789b4.js",
     "static/js/488.d384302e.chunk.js": "/static/js/488.d384302e.chunk.js",
     "static/media/phodelight_1.png": "/static/media/phodelight_1.477b546f55c076a62f7e.png",
     "static/media/dreamy_nails4.png": "/static/media/dreamy_nails4.6dddc3a36dd50ffbe582.png",
@@ -111,11 +111,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.a8b85092.css.map": "/static/css/main.a8b85092.css.map",
-    "main.f98a6469.js.map": "/static/js/main.f98a6469.js.map",
+    "main.b59789b4.js.map": "/static/js/main.b59789b4.js.map",
     "488.d384302e.chunk.js.map": "/static/js/488.d384302e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8b85092.css",
-    "static/js/main.f98a6469.js"
+    "static/js/main.b59789b4.js"
   ]
 }
