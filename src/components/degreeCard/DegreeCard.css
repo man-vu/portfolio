@@ -62,6 +62,14 @@
   flex-wrap: wrap; /* If there isn't enough space for both buttons side by side, they will wrap */
 }
 
+.education-item-footer a {
+  margin: 15px;
+}
+
+.education-btn {
+  width: 200px;
+}
+
 @media (max-width: 768px) {
   .degree-card {
     flex-direction: column;
@@ -103,6 +111,14 @@
   .education-item-footer a p {
     margin-left: 0; /* Reset left margin */
     margin-right: 0; /* Reset right margin */
+    width: 100%;
+  }
+
+  .education-item-footer a {
+    margin: 8px 0;
+  }
+
+  .education-btn {
     width: 100%;
   }
 

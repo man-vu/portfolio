@@ -40,7 +40,7 @@
   color: rgb(241, 111, 37);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
@@ -56,9 +56,9 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular", "Roboto", sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.9; /* Increased for better vertical rhythm */
-  padding: 40px; /* More padding for a balanced look */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 30px;
   position: relative;
   color: #2a2a2a; /* Slightly darker text for contrast */
   padding-left: 9.5rem;
@@ -123,7 +123,8 @@
   }
 
   .testimonial-description {
-    font-size: 18px;
+    font-size: 1rem;
+    padding: 20px;
   }
 
   .testimonial-details {
@@ -131,6 +132,10 @@
   }
 
   .testimonial-creation-date {
+    font-size: 14px;
+  }
+
+  .testimonial-position {
     font-size: 14px;
   }
 }
@@ -147,7 +152,7 @@
 }
 
 .testimonial-position {
-  font-size: 18px;           /* Slightly smaller font size */
+  font-size: 16px;
   font-weight: 600;          /* Semi-bold weight for emphasis */
   color: #777;               /* A muted color to not overshadow the testimonial */
   letter-spacing: 0.5px;    /* Slight letter spacing for elegance */
